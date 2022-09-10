@@ -1,0 +1,10 @@
+name: PlayerZoneDisplay-MapsPlus
+version: '${project.version}'
+main: me.dash.playerzonedisplay.hooks.mapsplus.MapsPlusHook
+api-version: 1.19
+authors: [ Dashersack ]
+depend: [ PlayerZoneDisplay, MapsPlus ]
+commands:
+  test:
+    description: "Test API command."
+    usage: /<command>

@@ -1,0 +1,6 @@
+name: PlayerZoneDisplay
+version: '${project.version}'
+main: me.dash.playerzonedisplay.core.PlayerZoneDisplayPlugin
+api-version: 1.19
+authors: [ Dashersack ]
+description: A plugin that displays where Players are in each world on the tab list.
