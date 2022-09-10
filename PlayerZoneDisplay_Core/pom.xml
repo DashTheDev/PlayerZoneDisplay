@@ -26,6 +26,14 @@
                         </goals>
                         <configuration>
                             <createDependencyReducedPom>false</createDependencyReducedPom>
+                            <filters>
+                                <filter>
+                                    <artifact>me.dash:PlayerZoneDisplay_API</artifact>
+                                    <excludes>
+                                        <exclude>META-INF/*.MF</exclude>
+                                    </excludes>
+                                </filter>
+                            </filters>
                         </configuration>
                     </execution>
                 </executions>
@@ -45,6 +53,7 @@
                 <version>2.3.1</version>
                 <configuration>
                     <outputDirectory>Z:\Minecraft Plugins\Plugin Test Server\plugins</outputDirectory>
+                    <finalName>PlayerZoneDisplay-${project.version}</finalName>
                 </configuration>
             </plugin>
         </plugins>
