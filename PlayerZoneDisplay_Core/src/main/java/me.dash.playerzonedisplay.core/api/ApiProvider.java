@@ -15,6 +15,6 @@ public class ApiProvider implements PlayerZoneDisplay {
 
     @Override
     public boolean getPlayerZone(UUID playerUUID) {
-        return this.plugin.getPlayerZoneManager().getPlayerZone(playerUUID) != null;
+        return true;
     }
 }
